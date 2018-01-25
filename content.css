@@ -1,0 +1,6 @@
+.pin-mouse-block {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    z-index: 2000;
+}
