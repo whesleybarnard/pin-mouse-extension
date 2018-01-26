@@ -24,7 +24,7 @@
             var fullLinkUrl = anchor_with_pin_id.attr('href');
             var pinId = extractPinId(fullLinkUrl);
 
-            $.post("http://localhost:3000/scheduled_pins/save_pin_id", {
+            $.post("https://localhost:3333/scheduled_pins/save_pin_id", {
                 pin_uuid: pinId
             });
         });
